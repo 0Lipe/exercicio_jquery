@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    text-align: center;
+    padding: 24px;
+}
+
+input, button{
+    padding: 8px;
+}
+
+ul li{
+    text-align: center;
+}
