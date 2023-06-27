@@ -4,8 +4,13 @@ $(document).ready(function() {
         const TarefaNova = $('#nova-tarefa').val();
         const novoitem = $('<li></li>');
         $(`<li>${TarefaNova}</li>`).appendTo(novoitem);
-        $(novoitem).appendTo('ul');
+        novoitem.on('click', function() {
+            $(this).css('text-decoration', 'line-through');
+        });
+        novoitem.appendTo('ul');
     });
 });
+
+
 
 
